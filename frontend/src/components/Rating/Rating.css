@@ -1,0 +1,14 @@
+.rating {
+    display: inline-flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    transition: fill 0.2s;
+}
+
+.icon:hover {
+    fill: #1db954;
+}

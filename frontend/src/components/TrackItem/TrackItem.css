@@ -1,0 +1,26 @@
+.track-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: opacity 0.3s;
+}
+
+.track-item:hover {
+    opacity: 0.8;
+}
+
+.track-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    transition: fill 0.2s;
+}
+
+.icon:hover {
+    fill: rgba(0, 0, 0, 0.7);
+}
